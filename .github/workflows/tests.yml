@@ -27,4 +27,7 @@ jobs:
       - name: Tests unitaires PHP
         run: php tests/php/run.php
       - name: Fichiers JSON valides
-        run: for f in $(find . -name "*.json" -not -path "./.git/*"); do php -r "json_decode(file_get_contents('$f')); exit(json_last_error() ? 1 : 0);" || { echo "JSON invalide : $f"; exit 1; }; done
+        run: |
+          for f in $(find . -name "*.json" -not -path "./.git/*"); do
+            php -r "json_decode(file_get_contents('$f')); exit(json_last_error() ? 1 : 0);" || { echo "JSON invalide : $f"; exit 1; }
+          done
