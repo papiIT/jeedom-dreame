@@ -1,0 +1,12 @@
+{
+	"apt": {
+		"python3-venv": {},
+		"python3-dev": {}
+	},
+	"pip3": {
+		"requests": {},
+		"paho-mqtt": {"version": "2.1.0"},
+		"pycryptodome": {},
+		"cryptography": {}
+	}
+}

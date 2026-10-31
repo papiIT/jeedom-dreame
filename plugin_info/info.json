@@ -1,0 +1,29 @@
+{
+	"id": "dreame",
+	"name": "Dreame",
+	"pluginVersion": "1.1.0",
+	"description": {
+		"fr_FR": "Pilotez vos robots aspirateurs laveurs Dreame (L40, L20, L10s, X40, X30...) depuis Jeedom via le cloud Dreamehome : démarrage, pause, retour à la base, localisation, réglages de nettoyage (aspiration, eau, mode), station (vidage, lavage et séchage des serpillières), état des réservoirs et suivi des consommables. Les changements d'état sont reçus en temps réel.",
+		"en_US": "Control your Dreame robot vacuums (L40, L20, L10s, X40, X30...) from Jeedom through the Dreamehome cloud: start, pause, return to dock, locate, cleaning settings (suction, water, mode), base station (auto-empty, mop washing and drying), tank status and consumables. State changes are received in real time."
+	},
+	"utilization": {
+		"fr_FR": "Renseignez votre compte Dreamehome dans la configuration du plugin, installez les dépendances puis cliquez sur Synchroniser.",
+		"en_US": "Enter your Dreamehome account in the plugin configuration, install the dependencies, then click Synchronize."
+	},
+	"licence": "AGPL",
+	"author": "Frédéric Morin",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
+	"category": "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 30,
+	"changelog": "https://papiit.github.io/jeedom-dreame/#language#/changelog",
+	"documentation": "https://papiit.github.io/jeedom-dreame/#language#/",
+	"changelog_beta": "https://papiit.github.io/jeedom-dreame/#language#/changelog",
+	"documentation_beta": "https://papiit.github.io/jeedom-dreame/#language#/",
+	"language": ["fr_FR", "en_US"],
+	"compatibility": ["smart", "luna", "atlas", "rpi", "docker", "diy", "v4"]
+}
