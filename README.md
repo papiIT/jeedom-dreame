@@ -38,13 +38,6 @@ php tests/php/run.php              # classe PHP, sans Jeedom installé
 
 Les mêmes tests tournent à chaque envoi sur GitHub (`.github/workflows/tests.yml`).
 
-## Publication sur le Market
-
-1. Créer le dépôt GitHub, pousser le code sur les branches `beta` puis `master`.
-2. Activer GitHub Pages sur le dossier `/docs` et ajuster les liens de `plugin_info/info.json`.
-3. Présenter le plugin sur le forum (Salon des développeurs › Présentation Plugin).
-4. Ajouter le plugin sur le Market (identifiant `dreame`) en indiquant le dépôt.
-
 ## Licence
 
 AGPL-3.0 (voir `LICENSE`). Composants tiers : voir `THIRD_PARTY.md`.
